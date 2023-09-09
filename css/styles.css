@@ -8,13 +8,13 @@
   background-color: rgb(74, 137, 225);
   color: white;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 60px;
+  padding: 0 20px;
 }
 
 .logo {
-  margin-right: 30px;
 }
 
 .logo:hover {
@@ -23,6 +23,8 @@
 
 .linksList {
   font-size: 25px;
+  display: flex;
+  list-style: none;
 }
 
 .linksList a.active {
@@ -33,9 +35,7 @@
 .linksList a {
   color: white;
   text-decoration: none;
-  padding: 16px 10px 16px 10px;
-  margin-left: -4px;
-  margin-right: -4px;
+  padding: 16px 10px;
 }
 
 .linksList a:hover {
@@ -44,9 +44,11 @@
 
 .hamburgerMenu {
   display: none;
+  flex-direction: column;
+  cursor: pointer;
 }
 
-.menu-line {
+.menuLine {
   width: 20px;
   height: 3px;
   background-color: white;
@@ -57,39 +59,35 @@
   text-align: center;
 }
 
-@media all and (max-width: 625px) {
-  .navbar {
-    flex-direction: column;
-  }
-
-  .menu {
-    display: block;
-    position: absolute;
-    right: 10px;
-    top: 15px;
-  }
-
-  .nav-list .list-item {
-    display: block;
-    padding: 10px;
-    border: 1px solid white;
-  }
-
-  .nav-list {
-    list-style-type: none;
-    width: 100%;
-    text-align: center;
-    padding-top: 10px;
+@media screen and (max-width: 548px) {
+  .linksList {
     display: none;
   }
 
-  .logoDiv {
-    width: 100%;
-    margin-left: 10px;
-    margin-top: 2px;
+  .hamburgerMenu {
+    display: flex;
   }
 
-  .active {
-    display: block;
+  .linksList {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: rgb(74, 137, 225);
+  }
+
+  .linksList.active {
+    display: flex;
+  }
+
+  .linksList a {
+    color: white;
+    text-decoration: none;
+    padding: 16px 10px;
+    width: 100%;
+    text-align: center;
   }
 }
