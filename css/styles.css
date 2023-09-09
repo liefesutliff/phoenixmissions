@@ -31,6 +31,11 @@
   color: rgb(201, 201, 201);
 }
 
+.logoDiv {
+  margin-right: auto;
+  padding-left: 10px;
+}
+
 .pheonixMissionsLogo {
   height: 40px;
 }
