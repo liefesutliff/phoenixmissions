@@ -15,6 +15,7 @@
 
 .nav-list {
   list-style-type: none;
+  padding-right: 10px;
 }
 
 .nav-list .list-item {
@@ -40,6 +41,10 @@
   height: 40px;
 }
 
+.pheonixMissionsLogo:hover {
+  opacity: 0.5;
+}
+
 .menu {
   display: none;
 }
@@ -51,7 +56,11 @@
   margin-bottom: 4px;
 }
 
-@media all and (max-width: 480px) {
+.wrapper {
+  text-align: center;
+}
+
+@media all and (max-width: 625px) {
   .navbar {
     flex-direction: column;
   }
