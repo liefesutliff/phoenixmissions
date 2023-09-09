@@ -4,48 +4,45 @@
   margin: 0;
 }
 
-.navbar {
+.navBar {
   background-color: rgb(74, 137, 225);
   color: white;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  font-size: 20px;
+  height: 60px;
 }
 
-.nav-list {
-  list-style-type: none;
-  padding-right: 10px;
+.logo {
+  margin-right: 30px;
 }
 
-.nav-list .list-item {
-  display: inline-block;
-  padding: 20px 10px;
-}
-
-.navbar a {
-  color: white;
-  text-decoration: none;
-}
-
-.navbar a:hover {
-  color: rgb(201, 201, 201);
-}
-
-.logoDiv {
-  margin-right: auto;
-  padding-left: 10px;
-}
-
-.pheonixMissionsLogo {
-  height: 40px;
-}
-
-.pheonixMissionsLogo:hover {
+.logo:hover {
   opacity: 0.5;
 }
 
-.menu {
+.linksList {
+  font-size: 25px;
+}
+
+.linksList a.active {
+  background-color: rgb(91, 147, 225);
+  color: rgb(211, 211, 211);
+}
+
+.linksList a {
+  color: white;
+  text-decoration: none;
+  padding: 16px 10px 16px 10px;
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+.linksList a:hover {
+  background-color: rgb(91, 147, 225);
+}
+
+.hamburgerMenu {
   display: none;
 }
 
