@@ -15,8 +15,6 @@
 
 .nav-list {
   list-style-type: none;
-  position: fixed;
-  top: 0;
 }
 
 .nav-list .list-item {
