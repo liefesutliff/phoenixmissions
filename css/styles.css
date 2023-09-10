@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: sans-serif;
 }
 
 .navBar {
@@ -12,9 +13,6 @@
   align-items: center;
   height: 60px;
   padding: 0 20px;
-}
-
-.logo {
 }
 
 .logo:hover {
@@ -35,7 +33,7 @@
 .linksList a {
   color: white;
   text-decoration: none;
-  padding: 16px 10px;
+  padding: 15px 16px 16px 16px;
 }
 
 .linksList a:hover {
@@ -46,6 +44,7 @@
   display: none;
   flex-direction: column;
   cursor: pointer;
+  padding: 12px 10px 8px 10px;
 }
 
 .menuLine {
@@ -56,7 +55,15 @@
 }
 
 .wrapper {
+  position: absolute;
+  width: 100%;
+  background-color: rgb(91, 147, 225);
   text-align: center;
+}
+
+.title {
+  font-size: 20px;
+  padding: 40px;
 }
 
 @media screen and (max-width: 548px) {
