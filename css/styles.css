@@ -72,8 +72,28 @@ body {
   font-size: 20px;
 }
 
-.bodyContent {
-  text-align: left;
+.homeBodyContent {
+  text-align: center;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgb(139, 187, 255);
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.contributeBodyContent {
+  text-align: center;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgb(139, 187, 255);
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.contactBodyContent {
+  text-align: center;
   border-radius: 4px;
   padding: 10px;
   font-size: 20px;
@@ -84,6 +104,15 @@ body {
 
 .contacts {
   color: black;
+}
+
+.bibleVerse {
+  font-style: italic;
+  text-align: center;
+}
+
+.giving-donate-button:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 760px) {
