@@ -107,6 +107,10 @@ body {
   color: black;
 }
 
+.contacts:hover {
+  opacity: 0.7;
+}
+
 .bibleVerse {
   font-style: italic;
   text-align: center;
