@@ -73,12 +73,13 @@ body {
 }
 
 .homeBodyContent {
+  list-style-position: inside;
   text-align: center;
   border-radius: 4px;
   padding: 10px;
   font-size: 20px;
   background-color: rgb(139, 187, 255);
-  max-width: 550px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -88,7 +89,7 @@ body {
   padding: 10px;
   font-size: 20px;
   background-color: rgb(139, 187, 255);
-  max-width: 550px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -98,7 +99,7 @@ body {
   padding: 10px;
   font-size: 20px;
   background-color: rgb(139, 187, 255);
-  max-width: 550px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -111,8 +112,27 @@ body {
   text-align: center;
 }
 
-.giving-donate-button:hover {
-  opacity: 0.8;
+.missionPage {
+  text-align: center;
+}
+
+.donateButton {
+  transition-duration: 0.5s;
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: white;
+  background-color: rgb(98, 163, 255);
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 40px;
+}
+
+.donateButton:hover {
+  transition-duration: 0.8s;
+  color: rgb(98, 163, 255);
+  background-color: white;
+  opacity: 0.7;
 }
 
 @media screen and (max-width: 760px) {
