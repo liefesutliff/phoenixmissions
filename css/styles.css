@@ -5,8 +5,23 @@
   font-family: sans-serif;
 }
 
+.background {
+  background-image: url(../images/groupPic1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: blur(3px); /* Apply blur to the background image */
+  opacity: 0.3; /* Apply opacity to the background image */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Place the background behind content */
+}
+
 body {
-  background-color: rgb(91, 147, 225);;
+  background-color: rgb(91, 147, 225);
 }
 
 .navBar {
@@ -64,7 +79,7 @@ body {
 
 .wrapper {
   z-index: -1;
-  background-color: rgb(91, 147, 225);
+  /* background-color: rgb(91, 147, 225); */
   text-align: center;
 }
 
